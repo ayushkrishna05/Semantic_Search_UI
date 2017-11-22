@@ -3,6 +3,10 @@
 // `ng build --env=prod` then `environment.prod.ts` will be used instead.
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 
+// e7576ba166e94b22871baf0fd226be8d
 export const environment = {
-  production: false
+  production: false,
+  dialogflow: {
+    angularBot: '58fdc62371774329928850b831306b7b'
+  }
 };
